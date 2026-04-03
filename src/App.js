@@ -1,5 +1,5 @@
 import { useEffect, useMemo } from 'react';
-import '@/App.css';
+import './App.css';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import { initializeData, getCurrentUser } from './utils/localStorage';
