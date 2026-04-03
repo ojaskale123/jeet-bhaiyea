@@ -1,0 +1,22 @@
+{
+  "repairReceived": {
+    "title": "Device Received",
+    "template": "Hello {customerName},\n\nYour device has been received at our shop.\n\n*Device Details:*\n{deviceDetails}\n\n*Repair ID:* {repairId}\n\nWe will start working on it soon.\n\nThank you!\n{shopName}"
+  },
+  "workerAssigned": {
+    "title": "Worker Assigned",
+    "template": "Hello {customerName},\n\nYour device repair has been assigned to our technician *{workerName}*.\n\n*Repair ID:* {repairId}\n*Device:* {deviceDetails}\n\nWork is in progress. We'll notify you once it's ready.\n\nThank you!\n{shopName}"
+  },
+  "deviceReady": {
+    "title": "Device Ready",
+    "template": "Hello {customerName},\n\n✅ Great news! Your device is ready for pickup.\n\n*Repair ID:* {repairId}\n*Device:* {deviceDetails}\n\nPlease visit our shop to collect it.\n\nThank you!\n{shopName}"
+  },
+  "deviceDelivered": {
+    "title": "Thank You",
+    "template": "Hello {customerName},\n\nThank you for choosing {shopName}! 🙏\n\nWe hope your device is working perfectly. If you face any issues, feel free to contact us.\n\nLooking forward to serving you again!\n\n{shopName}"
+  },
+  "purchaseComplete": {
+    "title": "Purchase Thank You",
+    "template": "Hello {customerName},\n\nThank you for shopping with us! 🛍️\n\n*Bill Amount:* ₹{amount}\n*Items:* {itemCount}\n\nWe appreciate your business and look forward to serving you again!\n\n{shopName}"
+  }
+}
