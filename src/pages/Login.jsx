@@ -43,7 +43,7 @@ const Login = () => {
         <div className="absolute inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center">
           <div className="text-center">
             <Barcode size={80} weight="duotone" className="text-[#B4846C] mx-auto mb-4" />
-            <h1 className="font-['Clash_Display'] text-5xl text-white tracking-tight mb-2">FRNDZZ TELECOMM</h1>
+            <h1 className="font-['Clash_Display'] text-5xl text-white tracking-tight mb-2">Frndz telecom</h1>
             <p className="font-['Manrope'] text-[#9CA3AF] text-lg">Management System</p>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Login = () => {
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-6 lg:hidden">
               <Barcode size={40} weight="duotone" className="text-[#B4846C]" />
-              <h1 className="font-['Clash_Display'] text-3xl text-white tracking-tight">WholeSale</h1>
+              <h3 className="font-['Clash_Display'] text-3xl text-white tracking-tight">WholeSale</h3>
             </div>
             <h2 className="font-['Clash_Display'] text-3xl text-white tracking-tight mb-2">Welcome Back</h2>
             <p className="font-['Manrope'] text-[#9CA3AF]">Sign in to manage your wholesale business</p>
