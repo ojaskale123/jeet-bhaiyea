@@ -51,7 +51,7 @@ function App() {
         position="top-right"
         toastOptions={toastOptions}
       />
-      <BrowserRouter basename="/jeet-bhaiyea">
+      <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
           
