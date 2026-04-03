@@ -43,7 +43,7 @@ const Login = () => {
         <div className="absolute inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center">
           <div className="text-center">
             <Barcode size={80} weight="duotone" className="text-[#B4846C] mx-auto mb-4" />
-            <h1 className="font-['Clash_Display'] text-5xl text-white tracking-tight mb-2">WholeSale</h1>
+            <h1 className="font-['Clash_Display'] text-5xl text-white tracking-tight mb-2">FRNDZZ TELECOMM</h1>
             <p className="font-['Manrope'] text-[#9CA3AF] text-lg">Management System</p>
           </div>
         </div>
