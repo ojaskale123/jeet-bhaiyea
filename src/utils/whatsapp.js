@@ -2,7 +2,7 @@ import templates from './whatsappTemplates.json';
 
 // Shop configuration
 const SHOP_CONFIG = {
-  name: 'Your Shop Name',
+  name: 'frndz telecomm',
   phone: '+91XXXXXXXXXX'
 };
 

@@ -15,11 +15,7 @@ export const initializeData = () => {
   // Initialize products if not exists
   if (!localStorage.getItem('products')) {
     const defaultProducts = [
-      { id: '1', name: 'Rice 25kg', sku: 'RICE-25', buyPrice: 1200, sellPrice: 1500, quantity: 50, category: 'Grains', minStock: 10, createdAt: new Date().toISOString() },
-      { id: '2', name: 'Wheat Flour 10kg', sku: 'WHEAT-10', buyPrice: 350, sellPrice: 450, quantity: 80, category: 'Grains', minStock: 15, createdAt: new Date().toISOString() },
-      { id: '3', name: 'Sugar 50kg', sku: 'SUGAR-50', buyPrice: 2000, sellPrice: 2500, quantity: 30, category: 'Sweeteners', minStock: 5, createdAt: new Date().toISOString() },
-      { id: '4', name: 'Cooking Oil 5L', sku: 'OIL-5L', buyPrice: 700, sellPrice: 850, quantity: 3, category: 'Oils', minStock: 5, createdAt: new Date().toISOString() },
-      { id: '5', name: 'Tea Leaves 1kg', sku: 'TEA-1K', buyPrice: 250, sellPrice: 320, quantity: 0, category: 'Beverages', minStock: 5, createdAt: new Date().toISOString() }
+      
     ];
     localStorage.setItem('products', JSON.stringify(defaultProducts));
   }
